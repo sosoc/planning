@@ -13,7 +13,7 @@
 
 ## Tasks
 
-- [ ]  add 'SNPP_RRS' NASA algorithm to `roc`
+- [ ]  add 'SNPP_RRS' NASA algorithm to `roc` https://github.com/mdsumner/roc/issues/6
 - [ ]  obtain SeaWiFS, MODISA, VIIRS L3bin files
 - [ ] automate scheme for aggregation
 
