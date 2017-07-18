@@ -2,10 +2,10 @@
 
 The approach used for `raadtools` has crystallized into 
 
-* `bowerbird` - https://github.com/AustralianAntarcticDivision/bowerbird (supersedes `raadtools`)
+* `bowerbird` - https://github.com/AustralianAntarcticDivision/bowerbird (supersedes `raadsync`)
 * packages to organize, read from the bower - incudling 'raadtools' and [roc](https://github.com/mdsumner/roc). 
 
-`bowerbird` can obtain all the source files, and ensure that any updates at the sources *invalidate the local copies* and trigger an update by download. 
+`bowerbird` can obtain all the source files, and ensure that any updates at the sources *invalidate the local copies* and trigger an update by download. This can be done at fine-grained level, i.e. all files in a day, or a week - or arbitrarily, whatever makes sense for the processing stream. 
 
 `raadtools` and `roc` includes many examples that show how to organize and process input and output files, but there will be a variety of tools doing various things with those. SEADAS, Python and shell scripts will be among the stack. In particular ther steps in the chain are:
 
