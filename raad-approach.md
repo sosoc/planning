@@ -16,5 +16,5 @@ The approach used for `raadtools` has crystallized into
 
 The crux as I see it is designing the process to get the bulk source files in chunks, processing those and discarding the (large) sources as we go. Making that robust is the hardest thing I see.  
 
-Up until now, all `raadtools` and related  workflows have used anything L3BIN or above (mapped/SMI), including Rob's algorithm from RRS.  The standard software stack, such as GDAL and HDF and NetCDF libs can be used to read L1 and lower, but the mission is to recreate L2 with Rob's calibration, and then replace the raad workflow for the algorithm for binned and mapped outputs.
+Up until now, all `raadtools` and related  workflows have used anything L3BIN or above (mapped/SMI), including custom algorithms from RRS.  The standard software stack, such as GDAL and HDF and NetCDF libs can be used to read L1 and lower, but the mission is to recreate L2 with custom calibration *and masking*, and then replace the raad workflow for the algorithm for binned and mapped outputs.
 
