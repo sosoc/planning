@@ -7,7 +7,7 @@
 
 # Prototype 1
 
-* obtain L3 bin RRS files (`raadsync` package)
+* obtain L3 bin RRS files (`bowerbird` package)
 * apply algorithm calculation at daily bins (`roc` package)
 * apply bin aggregation schemes up to regional and local maps at 8Day and Monthly time steps
 
@@ -28,8 +28,13 @@ There is process to calculate "johnson" and "nasa" chl from L3BIN RRS in the `ro
 * apply bin aggregation to daily bins
 * aggregate coverage as a measure, and perhaps others
 
-
 # Prototype 3
+
+* obtain L1B files with bowerbird, get a recent day-worth
+* establish compute resource with example scripts
+* apply test scripts to prove workflow
+
+# Prototype 4
 
 * establish SEADAS processing stack
 * obtain L1B files, with scheme to discard
